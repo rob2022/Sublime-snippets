@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertInstanceOf(${1:Class}::class, \$${2:object});
+${3}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>instanceOf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

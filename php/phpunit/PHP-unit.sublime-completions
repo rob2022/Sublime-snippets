@@ -1,0 +1,10 @@
+{
+	"scope": "source.php - variable.other.php",
+
+	"completions":
+	[
+		"php",
+
+		{ "trigger": "0000", "contents": "assertCount(${1:number}, /${2:array})" },
+	]
+}

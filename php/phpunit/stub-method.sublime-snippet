@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:stub}->method('${2:methodName}')->willReturn('${3:returnValue}');
+${4}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>stubmethod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

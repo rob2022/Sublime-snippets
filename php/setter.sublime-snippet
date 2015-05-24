@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/** 
+ * @param ${2:type} \$${4:var}
+ *
+ * @return self
+ */
+${1:public} function set${4/^(\w)/\U\1/g}(${3}\$${4:var})
+{
+	\$this->${4:var} = \$${4:var};
+	return \$this;
+}
+
+${5}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>setter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

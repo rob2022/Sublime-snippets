@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+/** @return ${6:returnType} */
+${1:public} function get${3/^(\w)/\U\1/g}()
+{
+	return \$this->${3:varName};
+}
+
+/** 
+ * @param ${4:type} \$${3:var}
+ *
+ * @return self
+ */
+${2:public} function set${3/^(\w)/\U\1/g}(${5}\$${3:var})
+{
+	\$this->${3:var} = \$${3:var};
+	return \$this;
+}
+
+${7}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getter-setter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

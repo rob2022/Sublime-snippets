@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+private /$mock${1:Object}
+\$this->mock${1:Object} = \$this->getMockBuilder(${1:Object}::class)->getMock();
+${3}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>stub</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
