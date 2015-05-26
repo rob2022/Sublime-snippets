@@ -1,10 +1,16 @@
 <snippet>
 	<content><![CDATA[
-* @param ${1:type} \$${2:varible}
-${3}
+/** 
+ * @param ${1:type} \$${3:varName}
+ */
+public function __construct(${2}\$${3:varName})
+{
+    ${4}
+}
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>@param</tabTrigger>
+	<tabTrigger>constructor</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>

@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-/** @return ${6:returnType} */
+/** 
+ * @return ${6:returnType}
+ */
 ${1:public} function get${3/^(\w)/\U\1/g}()
 {
 	return \$this->${3:varName};

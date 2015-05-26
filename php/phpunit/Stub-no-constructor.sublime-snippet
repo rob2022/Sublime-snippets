@@ -1,16 +1,13 @@
 <snippet>
 	<content><![CDATA[
-/** 
- * @param ${1:type} \$${3:varName}
- */
-public function __construct(${2}\$${3:varName})
-{
-   ${4}
-}
-
+private /$mock${1:Object}
+\$this->mock${1:Object} = \$this->getMockBuilder(${1:Object}::class)
+	->disableOriginalConstructor()
+	->getMock();
+${3}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>constructor</tabTrigger>
+	<tabTrigger>stubnc</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>

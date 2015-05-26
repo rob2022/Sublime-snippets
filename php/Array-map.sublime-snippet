@@ -6,7 +6,7 @@ array_map( function(\$${1:var}) {
 ${3}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>am</tabTrigger>
+	<tabTrigger>arrayMap</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>
